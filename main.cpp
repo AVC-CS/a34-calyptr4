@@ -8,11 +8,11 @@ int main()
   double avg;
 
   // TODO: Read three months and their rainfall values from standard input
-cout << "Type the first month its rainfall. \n";
+cout << "Type the first month and its rainfall. \n";
 cin >> month1 >> rainfall1;
-cout << "Type the second month its rainfall. \n";
+cout << "Type the second month and its rainfall. \n";
 cin >> month2 >> rainfall2;
-cout << "Type the third month its rainfall. \n";
+cout << "Type the third month and its rainfall. \n";
   cin >> month3 >> rainfall3;
   // TODO: Calculate the average rainfall
 avg = (rainfall1 + rainfall2 + rainfall3) / 3.0;
